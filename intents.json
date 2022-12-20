@@ -1,0 +1,39 @@
+{"intents": [
+    {"tag": "greeting",
+    "patterns": ["Hi", "How are you", "whats up", "Hello", "Are u there?","Good day"],
+    "responses": ["Hello","Nice to see you again!", "Hey there, how can I help you?"],
+    "context_set":""
+    },
+    {"tag": "goodbye",
+    "patterns": ["Goodbye", "ttyl", "Have a good day", "I am leaving", "cya","See you later"],
+    "responses": ["See you soon","Goodbye!", "Sad to see you go :("],
+    "context_set":""
+    },
+    {"tag": "age",
+    "patterns": ["how old", "what is your age", "age?", "how old are you", "whats ur age"],
+    "responses": ["I am 20 years old!"," 20 years young", "I am 20!"],
+    "context_set":""
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "who are u?", "what should i call you", "name?", "whats ur name"],
+    "responses": ["I am Alexa","You can call me Alexa", "My name is Alexa"],
+    "context_set":""
+    },
+    {"tag": "menu",
+    "patterns": ["Can i get the menu", "What is on the menu", "What do you recommend", "What is today's special", "What do you sell"],
+    "responses": ["We have arrabiata and alfredo pasta, pizzas, burger, coffee,shakes,fries and desserts","Today's special is cheesy fries and oreo shake", "I would recommend pepperoni pizza and salty fries"],
+    "context_set":""
+    },
+    {"tag": "time",
+    "patterns": ["What are the timings of the shop", "When are you guys open", "What are the working hours", "hours of operation", "Till what time is the shop open?","When will you close the shop?"],
+    "responses": ["You are welcome in our shop from Monday to Sunday 10am-9pm"],
+    "context_set":""
+    },
+    {"tag": "order",
+    "patterns": ["Can i get", "I would like to order", "I would like to buy", "I want a", "I would like ","My order is"],
+    "responses": ["Nice choice please wait for 10 minutes till your order arrives","We will get it for you right away", "Thanks for your order it will take 10 minutes to get it ready"],
+    "context_set":""
+    }
+]
+
+}
